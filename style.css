@@ -201,11 +201,41 @@ header h2 {
 }
 
 .sort {
-  margin-left: 150px;
+  margin-left: 160px;
   text-align: center;
   color: #bfbfbf;
 }
 
 .popularity {
   color: #74c0c8;
+}
+
+header .fa {
+  color: #bfbfbf;
+  float: right;
+  margin-right: 20px;
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+/* GRILLE */
+
+.movie-grid {
+  width: 100%;
+  margin: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.movie-grid img {
+  width: 120px;
+  height: 180px;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+.title {
+  font-weight: bold;
 }
