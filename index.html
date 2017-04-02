@@ -12,56 +12,96 @@
     <div class="container">
 <aside class="left">
   <div class="search">
-    <label for="recherche"></label>
+    <form method="get" action="search.php" autocomplete="off" name="form_search">
 <input type="search" name="recherche" value="Search movies">
+<button type="submit" class="fa fa-search"></button>
+</form>
   </div>
 
   <div class="main">
 <h4>Main</h4>
+<ul>
+  <li><i class="fa fa-play-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;Playing</li>
+  <li><i class="fa fa-compass" aria-hidden="true"></i>&nbsp;&nbsp;Discover</li>
+  <li><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;Activity</li>
+  <li><i class="fa fa-line-chart" aria-hidden="true"></i>&nbsp;&nbsp;Top Charts</li>
+  <li><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;New Releases</li>
+</ul>
   </div>
   <div class="circles">
-
+<h4>Your Movie Circles</h4>
+<ul>
+  <li><i class="fa fa-circle-thin blue-circle" aria-hidden="true"></i>&nbsp;&nbsp;This I Must See</li>
+  <li><i class="fa fa-circle-thin green-circle" aria-hidden="true"></i>&nbsp;&nbsp;The Best</li>
+</ul>
   </div>
   <div class="collections">
-
+<h4>Collections</h4>
+<ul>
+  <li><i class="fa fa-venus-mars" aria-hidden="true"></i>&nbsp;&nbsp;Me and Bob</li>
+  <li><i class="fa fa-venus-mars" aria-hidden="true"></i>&nbsp;&nbsp;Travel Movies</li>
+</ul>
   </div>
 </aside>
 <section>
   <header>
-    <div class="titre">
-
-    </div>
-    <div class="sort">
-
-    </div>
-    <div class="actualisation">
-
-    </div>
+<a class="titre" href="#">Discover</a>
+<a class="sort" href="#">Realease date | </a>
+<a class="popularity" href="#">Popularity</a>
+<i class="fa fa-repeat head" aria-hidden="true"></i>
+<i class="fa fa-upload head" aria-hidden="true"></i>
   </header>
 <div class="movie-grid">
-TEST
 </div>
 </section>
 <aside class="right">
 <div class="user">
-TEST
+  <img src="https://static.pexels.com/photos/91227/pexels-photo-91227.jpeg" alt="user"/>
+  <h4>Jack Dorsey</h4>
+  <i class="fa fa-circle-o" aria-hidden="true"></i>
 </div>
 <div class="friends">
 
 <div class="friends-online">
+<h5>Online</h5>
+<div class="user-1">
+  <img src="https://static.pexels.com/photos/101584/pexels-photo-101584.jpeg" alt="user"/>
+  <p>Victor Erixson</p>
+</div>
+<div class="user-1">
+  <img src="https://static.pexels.com/photos/119705/pexels-photo-119705.jpeg" alt="user"/>
+  <p>Gustav Butlex</p>
+</div>
+<div class="user-1">
+  <img src="https://static.pexels.com/photos/193355/pexels-photo-193355.jpeg" alt="user"/>
+  <p>Malte Jansson</p>
+</div>
 
 </div>
 <div class="friends-offline">
-
+<h5>Offline</h5>
+<div class="user-1">
+  <img src="https://static.pexels.com/photos/101584/pexels-photo-101584.jpeg" alt="user"/>
+  <p>Victor Erixson</p>
 </div>
-
+<div class="user-1">
+  <img src="https://static.pexels.com/photos/119705/pexels-photo-119705.jpeg" alt="user"/>
+  <p>Gustav Butlex</p>
+</div>
+<div class="user-1">
+  <img src="https://static.pexels.com/photos/193355/pexels-photo-193355.jpeg" alt="user"/>
+  <p>Malte Jansson</p>
+</div>
+</div>
 <div class="chat">
-
+  <form method="get" action="search.php" autocomplete="off" name="form_search">
+  <input type="search" name="recherche" value="Chat with">
+  <button type="submit" class="fa fa-search"></button>
+  </form>
 </div>
 
 </div> <!--FRIENDS-->
-
-</div> <!--CONTAINER-->
 </aside>
+</div> <!--CONTAINER-->
   </body>
 </html>
